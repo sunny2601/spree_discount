@@ -1,4 +1,4 @@
-Product.class_eval do
+Spree::Product.class_eval do
   
   validates_numericality_of :discount_percentage, :only_integer => true, 
                             :greater_than_or_equal_to => 0,
