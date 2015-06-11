@@ -6,7 +6,7 @@ module SpreeDiscount
       end
 
       def add_stylesheets
-        inject_into_file "app/assets/stylesheets/spree/frontend/all.css", " *= require spree/frontend/spree_discount\n", :before => /\*\//, :verbose => true
+        inject_into_file "vendor/assets/stylesheets/spree/frontend/all.css", " *= require spree/frontend/spree_discount\n", :before => /\*\//, :verbose => true
       end
 
       def add_migrations
