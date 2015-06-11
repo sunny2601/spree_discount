@@ -17,7 +17,7 @@ Prices are intentionally left to the admin to update accordingly.
 ## Installation
 
 1. Add the following to your Gemfile
-  gem 'spree_discount', github: sunny2601/spree_discount.git'
+  gem 'spree_discount', github: sunny2601/spree_discount'
 
 2. Run `bundle install`
 
